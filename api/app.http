@@ -1,0 +1,11 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://localhost:7195/user
+
+###
+
+POST https://localhost:7195/user
+Content-Type application/json
+
+{
+  "email": "toto@gmail.com"
+}
